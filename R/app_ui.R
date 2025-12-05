@@ -10,7 +10,16 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      golem::golem_welcome_page() # Remove this line to start building your UI
+      # multi-page structured clinical dashboard
+      navbarPage(
+        title = "Clinical Dashboard",
+        tabPanel("Disposition", mod_disposition_ui("disposition")),
+        tabPanel("Adverse Events", mod_ae_ui("ae")),
+        tabPanel("Laboratory", mod_lab_ui("lab")),
+        tabPanel("Vitals", mod_vitals_ui("vitals")),
+        tabPanel("Subject Profile", mod_profile_ui("profile")),
+        tabPanel("TFL Generator", mod_tfl_ui("tfl"))
+      )
     )
   )
 }
