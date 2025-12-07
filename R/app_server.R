@@ -6,5 +6,5 @@
 #' @noRd
 app_server <- function(input, output, session) {
   # Your application server logic
-  mod_disposition_server("disposition")
+  mod_patient_engagement_server("engagement_mod")
 }

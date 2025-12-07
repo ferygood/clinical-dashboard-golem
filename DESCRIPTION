@@ -5,13 +5,18 @@ Authors@R:
     person(given = "firstname",
            family = "lastname",
            role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+           email = "yaochung.chen@outlook.com")
+Description: A dashboard to display NHS PROM data.
+License: 
 Imports: 
     config,
     golem,
-    shiny
+    shiny,
+    bs4Dash,
+    DT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

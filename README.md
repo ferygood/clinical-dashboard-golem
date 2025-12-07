@@ -1,11 +1,23 @@
 # Clinical Dashboard Golem
 
+NHR Patient Reported Outcome Measures (PROMs) in England, Final 2023/24 data.
+https://digital.nhs.uk/data-and-information/publications/statistical/patient-reported-outcome-measures-proms/final-2023-24-data
+
+Glossary:
+ANANA format
+Pre-operative participation and linage reate
+post-operative issue
+
+Data source: NHS (National Health Service), Summary Tables 2023-24 for upload.xlsx
+
+1. Patient Engagement (inst/extdata/engagement_knee_replacements.csv)
+
+
 A dashboard demo for SDTM data following CDISC rule.
 
 
 R/ folder, include app_ui, app_server
 inst/ additional attached files
-
 
 inst/extdata/dummy_stdm/
 DM.csv
@@ -13,6 +25,9 @@ AE.csv
 LB.csv
 VS.csv
 EX.csv
+
+
+
 
 
 Create project module
