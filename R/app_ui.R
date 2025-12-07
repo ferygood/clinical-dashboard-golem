@@ -3,6 +3,8 @@
 #' @param request Internal parameter for `{shiny}`.
 #'     DO NOT REMOVE.
 #' @import shiny
+#' @import bs4Dash
+#' @import DT
 #' @noRd
 
 app_ui <- function(request) {
